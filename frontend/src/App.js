@@ -128,7 +128,10 @@ const App = () => {
     <>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-
+          select option {
+          background-color: #ffffff;
+          color: #000000;
+        }
         * {
           box-sizing: border-box;
         }
